@@ -125,6 +125,6 @@ export default {
 }
 
 .rows:last-child {
-    border-right: none; /* Remove right border for the last div */
+    border-right: none;
 }
 </style>

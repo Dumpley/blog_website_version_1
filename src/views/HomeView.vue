@@ -1,13 +1,13 @@
 <template>
-    <div class="starting_page">
-        <div class="sider">
-            <Profile></Profile>
-            <Quicklinks></Quicklinks>
+        <div class="starting_page">
+            <div class="sider">
+                <Profile></Profile>
+                <Quicklinks></Quicklinks>
+            </div>
+            <div class="post_list">
+                <Post_Overview></Post_Overview>
+            </div>
         </div>
-        <div class="post_list">
-            <Post_Overview></Post_Overview>
-        </div>
-    </div>
 </template>
 
 <script>
@@ -32,6 +32,6 @@ export default {
     flex-direction: row;
 }
 .post_list {
-  width: 100%;
+    width: 100%;
 }
 </style>

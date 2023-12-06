@@ -40,6 +40,7 @@
 }
 .wrapper_all {
     margin: 10px;
+    margin-right: 0px;
     margin-top: 0;
     border: 2px solid #838b8e;
     display: flex;
